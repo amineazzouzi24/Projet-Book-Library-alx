@@ -1,0 +1,89 @@
+body{
+    display: flex;
+    flex-direction: row;
+}
+
+header{
+    background-color: rgb(0, 0, 0);
+    color: rgb(251, 251, 251);
+    padding: 100% 20px;
+    
+}
+
+nav ul {
+    display: flex;
+    gap: 15px;
+    padding: 0;
+    margin: 0;
+}
+nav li {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+
+
+.logo{
+    font-size: 100%;
+    margin-right: auto;
+    
+}
+
+main{
+    display: flex;
+    flex: auto;
+    flex-direction: row;
+}
+
+article{
+    overflow-y: auto;
+    flex: 2;
+    background-color: aqua;
+    padding: 20px;
+    border-right: 1px solid white;
+
+}
+
+
+aside{
+    overflow-y: auto;
+    flex: 1;
+    background-color: aliceblue;
+    padding: 20px;
+    border-left: 1px solid wheat;
+
+}
+
+footer{background-color: royalblue;
+    color:rgb(0, 0, 0);
+    text-align: center;
+    padding: 10px;
+}
+ nav a .btn_home{
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    padding: 10px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+nav a .btn_ebooks{
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    padding: 10px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+nav a .btn_login{
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    padding: 10px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+}
